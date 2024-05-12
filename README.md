@@ -8,7 +8,7 @@
 
 
 # Dokonanie zmiany w pliku package.json
-
+```
 {
   "name": "weather",
   "version": "0.0.0",
@@ -33,6 +33,7 @@
     "jsprim": "2.0.2"
   }
 }
+```
 
 Zmiany w wersjach pakietów przeprowadziłem, kierując się opisami zagrożeń oraz informacjami o zależnościach z pliku package-lock.json. Na przykład, samo zaktualizowanie wersji pakietu `qs` w `dependencies` nie było wystarczające, gdyż pakiet `request` używał przestarzałej jego wersji. W związku z tym, zaktualizowałem również wersję `request` do nowszej. W podobny sposób postąpiłem z innymi identyfikowanymi zagrożeniami.
 
